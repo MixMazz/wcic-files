@@ -1,0 +1,166 @@
+#svgBanner stop {
+    transition: all 2s ease;
+}
+
+
+/* handle decorative groups */
+#winterFronds,
+#snowing,
+#skyNight,
+#winterCloud {
+    opacity: 0;
+}
+
+.nightTime #cloudGroup,
+.nightTime #skyDay {
+    opacity: 0;
+}
+
+.nightTime #skyNight {
+    opacity: 1
+}
+
+.winterTime #cloudGroup {
+    opacity: 0;
+}
+
+.winterTime #winterFronds,
+.winterTime #snowing,
+.winterTime #winterCloud {
+    opacity: 1
+}
+
+.nightTime.winterTime #winterCloud {
+    opacity: 0
+}
+
+
+/* handle colour themes */
+/* #region nighttime ----------+---------- */
+
+/* nightTime GRADIENTS */
+.nightTime #paint_linear_water stop:first-child {
+    stop-color: #0D1666;
+}
+
+.nightTime #paint_linear_water stop:last-child {
+    stop-color: #435ACF;
+}
+
+.nightTime #paint_linear_trunk0 stop:first-child {
+    stop-color: #423F20;
+}
+
+.nightTime #paint_linear_trunk0 stop:last-child {
+    stop-color: #63632F;
+}
+
+.nightTime #paint_linear_frond3 stop:first-child {
+    stop-color: #0C462E;
+}
+
+.nightTime #paint_linear_frond3 stop:last-child {
+    stop-color: #226348;
+}
+
+.nightTime #paint_linear_dayFade stop {
+    stop-color: #7A758F;
+}
+
+/* #endregion */
+
+/* #region wintertime ----------+---------- */
+
+/* nightTime GRADIENTS */
+
+.winterTime #paint_linear_water stop:first-child {
+    stop-color: #5082AF;
+}
+
+.winterTime #paint_linear_water stop:last-child {
+    stop-color: #92c4c4;
+}
+
+.winterTime #paint_linear_trunk0 stop:first-child {
+    stop-color: #B88452;
+}
+
+.winterTime #paint_linear_trunk0 stop:last-child {
+    stop-color: #CC9F66;
+}
+
+.winterTime #paint_linear_skyDay stop:first-child {
+    stop-color: #8FC5D8;
+}
+
+.winterTime #paint_linear_skyDay stop:last-child {
+    stop-color: #EAEFDD;
+}
+
+.winterTime #paint_linear_frond3 stop {
+    stop-color: #7EB9A0;
+}
+
+.winterTime #paint_linear_dayFade stop {
+    stop-color: #E8D9B5;
+}
+
+/* #endregion */
+
+/* #region nightTime winterTime ----------+---------- */
+
+.nightTime.winterTime #twinkle0 circle,
+.nightTime.winterTime #twinkle1 circle,
+.nightTime.winterTime #twinkle2 circle {
+    fill: #e1eac0;
+}
+
+/* nightTime winter GRADIENTS */
+
+.nightTime.winterTime #paint_linear_water stop:first-child {
+    stop-color: #102A75;
+}
+
+.nightTime.winterTime #paint_linear_water stop:last-child {
+    stop-color: #6B84C5;
+}
+
+.nightTime.winterTime #paint_linear_trunk0 stop:first-child {
+    stop-color: #423F20;
+}
+
+.nightTime.winterTime #paint_linear_trunk0 stop:last-child {
+    stop-color: #A1A185;
+}
+
+.nightTime.winterTime #paint_linear_skyDay stop:first-child {
+    stop-color: #8FC5D8;
+}
+
+.nightTime.winterTime #paint_linear_skyDay stop:last-child {
+    stop-color: #EAEFDD;
+}
+
+.nightTime.winterTime #paint_linear_winterfrond0 stop:first-child,
+.nightTime.winterTime #paint_linear_winterfrond1 stop:first-child,
+.nightTime.winterTime #paint_linear_winterfrond2 stop:first-child,
+.nightTime.winterTime #paint_linear_winterfrond3 stop:first-child {
+    stop-color: #98B1F5;
+}
+
+.nightTime.winterTime #paint_linear_winterfrond0 stop:last-child,
+.nightTime.winterTime #paint_linear_winterfrond1 stop:last-child,
+.nightTime.winterTime #paint_linear_winterfrond2 stop:last-child,
+.nightTime.winterTime #paint_linear_winterfrond3 stop:last-child {
+    stop-color: #577278;
+}
+
+.nightTime.winterTime #paint_linear_frond3 stop {
+    stop-color: #0C462E;
+}
+
+.nightTime.winterTime #paint_linear_dayFade stop {
+    stop-color: #A5B6E3;
+}
+
+/* #endregion */
