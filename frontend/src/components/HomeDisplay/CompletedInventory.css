@@ -1,0 +1,209 @@
+#completedInventoryCard {
+  height: 220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 50px 0;
+}
+
+#completedBanner {
+  width: 103%;
+  height: 80px;
+  background-color: #61DAB9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.nightTime #completedBanner {
+  background-color: #3bc6a1;
+}
+
+#completedBanner p {
+  font-weight: 700;
+  color: white;
+  font-size: 1.5em;
+}
+
+#bannerStitching {
+  height: 80%;
+  width: 100%;
+}
+
+#bannerStitching div {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(165,251,237)' stroke-width='4' stroke-dasharray='5%2c 10' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+  stroke: #3ADDB1;
+  position: relative;
+  margin: 0 auto;
+  top: -72px;
+  left: -10px;
+  width: 104%;
+  height: 100%;
+}
+
+.nightTime #bannerStitching div {
+  opacity: 0.4;
+}
+
+#completedYes {
+  font-size: 2.5em;
+  font-weight: 900;
+  display: flex;
+  padding: 20px;
+}
+
+.yesLetters {
+  animation-name: lettersBounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: #FF9820;
+}
+
+.nightTime .yesLetters {
+  color: #f09916;
+}
+
+.yesLetters:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.yesLetters:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.yesLetters:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.yesLetters:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.yesLetters:nth-child(5) {
+  animation-delay: 1s;
+}
+
+@keyframes lettersBounce {
+  0% {
+      transform: translateY(0px);
+  }
+
+  35% {
+      transform: translateY(-10px);
+  }
+
+  70% {
+      transform: translateY(0px);
+  }
+
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #completedInventoryCard {
+      height: 4em;
+      padding: 3em 0;
+  }
+
+  #completedBanner {
+      width: 105%;
+      height: 2.5em;
+      border-radius: 3px;
+      margin-top: 1.5em;
+  }
+
+  #completedBanner p {
+      font-size: 0.7em;
+  }
+
+  #bannerStitching div {
+      top: -2.2em;
+      left: -0.3em;
+      width: 104%;
+      height: 100%;
+  }
+
+  #completedYes {
+      font-size: 1.8em;
+      margin: -40px;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  #completedInventoryCard {
+      height: 100px;
+      padding: 50px 0;
+  }
+
+  #completedBanner {
+      width: 105%;
+      height: 75px;
+      border-radius: 3px;
+      margin-top: 50px;
+      overflow: hidden;
+  }
+
+  #completedBanner p {
+      font-size: 1em;
+  }
+
+  #bannerStitching {
+      height: 40px;
+      width: 100%;
+  }
+
+  #bannerStitching div {
+      background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(165,251,237)' stroke-width='6' stroke-dasharray='9%2c 14' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+      top: -48px;
+      left: -10px;
+      width: 106%;
+      height: 100%;
+  }
+
+  #completedYes {
+      font-size: 2.5em;
+      font-weight: 900;
+      display: flex;
+      margin: -40px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #completedInventoryCard {
+      height: 220px;
+      padding: 50px 0;
+  }
+
+  #completedBanner {
+      width: 103%;
+      height: 80px;
+      border-radius: 5px;
+  }
+
+  #completedBanner p {
+      font-size: 1.5em;
+  }
+
+  #bannerStitching {
+      height: 80%;
+      width: 100%;
+  }
+
+  #bannerStitching div {
+      top: -72px;
+      left: -10px;
+      width: 104%;
+      height: 100%;
+  }
+
+  #completedYes {
+      font-size: 2.5em;
+      font-weight: 900;
+      display: flex;
+      padding: 20px;
+  }
+}

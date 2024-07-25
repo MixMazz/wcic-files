@@ -1,0 +1,368 @@
+#noUserContainer {
+  width: 80%;
+  background: #FFFEFB;
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.goToHome,
+.clickToLogin {
+  font-weight: 700;
+  color: #05bc85;
+  cursor: pointer;
+}
+
+.headerCard {
+  background-color: #FFFEFB;
+  width: 80%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.nightTime .headerCard {
+  background-color: #3f3645;
+  color: #f3eaf8
+}
+
+.headerCard p {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.highlightText {
+  color: #05bc85;
+  font-weight: 900;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.8em;
+  height: 2.1em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.allSelectors {
+  margin: 3em auto;
+}
+
+.selectorFrame {
+  background-color: #bd9d70;
+  padding: 1em 0;
+  border-radius: 1em;
+  margin: 0 auto;
+  transition: background-color 0s ease;
+}
+
+.nightTime .selectorFrame {
+  background-color: #3f3645;
+}
+
+fieldset {
+  background-color: #F1E9DA;
+  border: none;
+  border-radius: 1em;
+  margin: 30px;
+}
+
+.nightTime fieldset {
+  background-color: #6b6371;
+}
+
+legend {
+  margin: 15px 0;
+}
+
+legend label {
+  background-color: #FFFEFB;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  border: 2px solid #99571C;
+  font-weight: 700;
+  color: #47260a;
+  margin: 0 20px 0 0;
+}
+
+.nightTime legend label {
+  border-color: #3c2e44;
+  color: #3c2e44;
+}
+
+.changeAllButton {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.25em 0.75em;
+  border-radius: 7px;
+  margin: 0 2px;
+}
+
+.checkboxContainer {
+  display: grid;
+  grid-template-rows: var(--grid-cell-size) var(--grid-cell-size) var(--grid-cell-size) var(--grid-cell-size) var(--grid-cell-size);
+  grid-auto-flow: column;
+}
+
+.checkboxContainer input {
+  display: none;
+}
+
+.checkboxImg {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.checkboxContainer .checkboxName {
+  display: none;
+}
+
+.checkboxContainer.listView input {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.checkboxContainer.listView {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxContainer.listView .checkboxImg {
+  display: none;
+}
+
+.checkboxContainer.listView .checkboxName {
+  display: inline-block;
+}
+
+.checkboxLabel {
+  text-align: center;
+  border: 1px solid #F1E9DA;
+  transition: background-color 0s ease;
+  position: relative;
+}
+
+.nightTime .checkboxLabel {
+  border-color: #6b6371;
+}
+
+.checkboxLabel:hover {
+  background-color: #fff7cf;
+  border: 1px solid #bb8352;
+}
+
+.nightTime .checkboxLabel:hover {
+  background-color: #c9bfcf;
+  border-color: #514669;
+}
+
+.checkboxSVG {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkboxFillerIcon {
+  fill: #E9DCC5;
+  stroke: #E9DCC5;
+}
+
+.nightTime .checkboxFillerIcon {
+  fill: #5E5763;
+  stroke: #5E5763;
+}
+
+.checkboxLabel.checked .checkboxImg {
+  visibility: visible;
+}
+
+.checkboxLabel.checked .checkboxSVG {
+  visibility: hidden;
+}
+
+.saveButton {
+  font-size: 1.25em;
+  font-weight: 600;
+  padding: 0.25em 0.5em;
+  border-radius: 7px;
+  margin: 0 5px;
+}
+
+.resetButton {
+  font-size: 1.25em;
+  font-weight: 600;
+  padding: 0.25em 0.5em;
+  border-radius: 7px;
+  margin: 0 2px;
+}
+
+.endButtons {
+  margin: 15px 0 0 0;
+  position: relative;
+  float: right;
+}
+
+.errorMessage,
+.successMessage {
+  font-weight: 700;
+  margin: 0 1em 0 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+.errorMessage {
+  color: rgb(141, 46, 46);
+}
+
+.successMessage {
+  color: #089f72;
+}
+
+.nightTime .successMessage {
+  color: #a3fce2;
+}
+
+@media only screen and (max-width: 400px) {
+  .headerCard {
+      width: 80%;
+      border-radius: 20px;
+      text-align: center;
+      padding: 1em;
+      margin: 0 auto;
+      font-size: 0.75em;
+  }
+
+  .headerCard p {
+      font-size: 0.5em;
+  }
+
+  .allSelectors {
+      margin: 1.5em auto;
+  }
+
+  .selectorFrame {
+      background-color: rgb(189, 157, 112, 0.0);
+      padding: 0.1em 0;
+      border-radius: 0;
+      margin: 0 auto;
+      transition: background-color 0s ease;
+  }
+
+  fieldset {
+      width: 100%;
+      min-width: 0;
+      padding: 0;
+      margin: 2em auto;
+      border-radius: 0;
+  }
+
+  legend label {
+      padding: 5px 10px;
+      font-size: 0.9em;
+      margin: 0 5px;
+  }
+
+  .changeAllButton {
+      font-size: 0.6em;
+      padding: 0.25em 0.75em;
+  }
+
+  .endButtons {
+      margin: 10px 0;
+  }
+
+  .resetButton {
+      font-size: 0.8em;
+      padding: 0.25em 0.5em;
+  }
+
+  .saveButton {
+      font-size: 0.8em;
+  }
+
+  .checkboxContainer {
+      grid-template-rows: 2em 2em 2em 2em 2em;
+
+  }
+
+  .checkboxContainer.checkboxfish,
+  .checkboxContainer.checkboxbug {
+      grid-auto-columns: 2em;
+      overflow-x: scroll;
+      overflow-y: hidden;
+  }
+
+  .successMessage {
+      font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .headerCard {
+      width: 40%;
+      border-radius: 20px;
+      text-align: center;
+      padding: 1.3em;
+      margin: 0 auto;
+      font-size: 1em;
+  }
+
+  .headerCard p {
+      font-size: 1em;
+  }
+
+  .allSelectors {
+      margin: 3em 0;
+  }
+
+  .selectorFrame {
+      background-color: #bd9d70;
+      width: 50%;
+      padding: 1em 3em;
+      border-radius: 3em;
+      margin: 0 auto;
+  }
+
+  fieldset {
+      margin: 30px auto;
+  }
+
+  .checkboxContainer {
+      margin: 1em 0 0 0;
+  }
+
+  .successMessage {
+      font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .headerCard {
+      width: 30%;
+      padding: 1em;
+      margin: 0 auto;
+      font-size: 1em;
+  }
+
+  .headerCard p {
+      font-size: 0.8em;
+  }
+
+  .selectorFrame {
+      width: 60%;
+  }
+}

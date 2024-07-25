@@ -1,0 +1,94 @@
+#hemisphereToggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #EEE;
+  display: inline-block;
+  margin: 0.4em;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+#hemispherelabel {
+  text-align: center;
+}
+
+#hemisphereToggleInternal {
+  display: flex;
+}
+
+#hemisphereToggleInternal .radio {
+  text-align: center;
+}
+
+#hemisphereToggleInternal .radio input {
+  display: none;
+}
+
+#hemisphereToggleInternal .radio .hemiToggleName {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(51, 65, 85, 1);
+  transition: all .15s ease-in-out;
+  font-weight: 800;
+  border-radius: 0.5em;
+  padding: 0.2em 0.8em;
+  font-size: 0.1em;
+}
+
+#hemisphereToggleInternal .radio input:checked+.hemiToggleName {
+  background-color: #FFB647;
+  color: rgb(15, 30, 49);
+}
+
+@media only screen and (min-width: 750px) {
+  #hemisphereToggle {
+      border-radius: 0.5em;
+      margin: 0.5em;
+  }
+
+  #hemisphereToggleInternal .radio .hemiToggleName {
+      padding: 0.2em 0.8em;
+      border-radius: 0.3em;
+      font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #hemisphereToggle {
+      border-radius: 0.5em;
+      margin: 1em 1em;
+  }
+
+  #hemisphereToggleInternal .radio .hemiToggleName {
+      padding: 0.2em 0.8em;
+      border-radius: 0.3em;
+      font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #hemisphereToggle {
+      border-radius: 0.5em;
+      margin: 1em 1em;
+  }
+
+  #hemisphereToggleInternal .radio .hemiToggleName {
+      padding: 0.4em 1.6em;
+      border-radius: 0.3em;
+      font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  #hemisphereToggle {
+      margin: 1em 2em;
+  }
+
+  #hemisphereToggleInternal .radio .hemiToggleName {
+      font-size: 1.8em;
+  }
+}

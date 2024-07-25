@@ -1,0 +1,96 @@
+#Navbar {
+  font-family: 'Nunito', sans-serif;
+}
+
+.accountContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0.4em;
+}
+
+#Navbar button {
+  font-weight: 700;
+  border-radius: 0.5em;
+  font-size: 0.5em;
+}
+
+#Navbar .loginText,
+#Navbar .logoutText {
+  color: var(--font-color-regbrown);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.5em;
+  margin-right: 0.5em;
+}
+
+.nightTime #Navbar .loginText,
+.nightTime #Navbar .logoutText {
+  color: var(--font-color-darkmode);
+}
+
+@media only screen and (min-width: 750px) {
+  .accountContainer {
+      margin: 0.5em;
+  }
+
+  #Navbar button {
+      font-size: 1em;
+      padding: 0.5em 1em;
+  }
+
+  #Navbar .loginText,
+  #Navbar .logoutText {
+      font-size: 1em;
+      margin-right: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .accountContainer {
+      margin: 1em;
+  }
+
+  #Navbar button {
+      font-size: 1.5em;
+      padding: 0.5em 1em;
+  }
+
+  #Navbar .loginText,
+  #Navbar .logoutText {
+      font-size: 1.5em;
+      margin-right: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .accountContainer {
+      margin: 1em;
+  }
+
+  #Navbar button {
+      font-size: 1.2em;
+      padding: 0.5em 1em;
+  }
+
+  #Navbar .loginText,
+  #Navbar .logoutText {
+      font-size: 1.2em;
+      margin-right: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .accountContainer {
+      margin: 1em 1.5em;
+  }
+
+  #Navbar button {
+      font-size: 2em;
+  }
+
+  #Navbar .loginText,
+  #Navbar .logoutText {
+      font-size: 2em;
+  }
+}

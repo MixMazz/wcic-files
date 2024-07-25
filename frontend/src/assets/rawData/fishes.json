@@ -1,0 +1,1474 @@
+{
+  "headers": ["name", "location", "shadow", "value"],
+  "fishes": [
+    {
+      "name": "Bitterling",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XS",
+      "value": 900,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "March"]],
+        "Southern": [["May", "September"]]
+      },
+      "pic": "/fish/bitterling.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Pale Chub",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XS",
+      "value": 160,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/palechub.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Crucian Carp",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 160,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/cruciancarp.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Dace",
+      "type": "fish",
+      "location": "River",
+      "shadow": "M",
+      "value": 240,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/dace.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Carp",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "L",
+      "value": 300,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/carp.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Koi",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "L",
+      "value": 4000,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/koi.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Goldfish",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "XS",
+      "value": 1300,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/goldfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Pop-eyed Goldfish",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "XS",
+      "value": 1300,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/pop-eyedgoldfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Ranchu Goldfish",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "S",
+      "value": 4500,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/ranchugoldfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Killifish",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "XS",
+      "value": 300,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "August"]],
+        "Southern": [["October", "February"]]
+      },
+      "pic": "/fish/killifish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Crawfish",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "S",
+      "value": 200,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/fish/crawfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Soft-shelled Turtle",
+      "type": "fish",
+      "location": "River",
+      "shadow": "L",
+      "value": 3750,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["August", "September"]],
+        "Southern": [["February", "March"]]
+      },
+      "pic": "/fish/soft-shelledturtle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Snapping Turtle",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XL",
+      "value": 5000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[9, 11]]
+      },
+      "month": {
+        "Northern": [["April", "October"]],
+        "Southern": [["October", "April"]]
+      },
+      "pic": "/fish/snappingturtle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Tadpole",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "XS",
+      "value": 100,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["March", "July"]],
+        "Southern": [["September", "January"]]
+      },
+      "pic": "/fish/tadpole.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Frog",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "S",
+      "value": 120,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["May", "August"]],
+        "Southern": [["November", "February"]]
+      },
+      "pic": "/fish/frog.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Freshwater Goby",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 400,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/freshwatergoby.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Loach",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 400,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["March", "May"]],
+        "Southern": [["September", "November"]]
+      },
+      "pic": "/fish/loach.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Catfish",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "L",
+      "value": 800,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/fish/catfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Giant Snakehead",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "XL",
+      "value": 5500,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["June", "August"]],
+        "Southern": [["December", "February"]]
+      },
+      "pic": "/fish/giantsnakehead.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Bluegill",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 180,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/bluegill.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Yellow Perch",
+      "type": "fish",
+      "location": "River",
+      "shadow": "M",
+      "value": 300,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["October", "March"]],
+        "Southern": [["April", "September"]]
+      },
+      "pic": "/fish/yellowperch.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Black Bass",
+      "type": "fish",
+      "location": "River",
+      "shadow": "L",
+      "value": 400,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/blackbass.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Tilapia",
+      "type": "fish",
+      "location": "River",
+      "shadow": "M",
+      "value": 800,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "October"]],
+        "Southern": [["December", "April"]]
+      },
+      "pic": "/fish/tilapia.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Pike",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XL",
+      "value": 1800,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["September", "December"]],
+        "Southern": [["March", "June"]]
+      },
+      "pic": "/fish/pike.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Pond Smelt",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["December", "February"]],
+        "Southern": [["June", "August"]]
+      },
+      "pic": "/fish/pondsmelt.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Sweetfish",
+      "type": "fish",
+      "location": "River",
+      "shadow": "M",
+      "value": 900,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/fish/sweetfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Cherry Salmon",
+      "type": "fish",
+      "location": "River (clifftop)",
+      "shadow": "M",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "June"],
+          ["September", "November"]
+        ],
+        "Southern": [
+          ["September", "December"],
+          ["March", "May"]
+        ]
+      },
+      "pic": "/fish/cherrysalmon.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Char",
+      "type": "fish",
+      "location": "River (clifftop)",
+      "shadow": "M",
+      "value": 3800,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "June"],
+          ["September", "November"]
+        ],
+        "Southern": [
+          ["September", "December"],
+          ["March", "May"]
+        ]
+      },
+      "pic": "/fish/char.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Golden Trout",
+      "type": "fish",
+      "location": "River (clifftop)",
+      "shadow": "M",
+      "value": 15000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "June"],
+          ["September", "November"]
+        ],
+        "Southern": [
+          ["September", "December"],
+          ["March", "May"]
+        ]
+      },
+      "pic": "/fish/goldentrout.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Stringfish",
+      "type": "fish",
+      "location": "River (clifftop)",
+      "shadow": "XXL",
+      "value": 15000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["December", "March"]],
+        "Southern": [["June", "September"]]
+      },
+      "pic": "/fish/stringfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Salmon",
+      "type": "fish",
+      "location": "River (mouth)",
+      "shadow": "L",
+      "value": 700,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["September"]],
+        "Southern": [["March"]]
+      },
+      "pic": "/fish/salmon.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "King Salmon",
+      "type": "fish",
+      "location": "River (mouth)",
+      "shadow": "XXL",
+      "value": 1800,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["September"]],
+        "Southern": [["March"]]
+      },
+      "pic": "/fish/kingsalmon.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Mitten Crab",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 2000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["September", "November"]],
+        "Southern": [["March", "May"]]
+      },
+      "pic": "/fish/mittencrab.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Guppy",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XS",
+      "value": 1300,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["April", "November"]],
+        "Southern": [["October", "May"]]
+      },
+      "pic": "/fish/guppy.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Nibble Fish",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 1500,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/fish/nibblefish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Angelfish",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 3000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/fish/angelfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Betta",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 2500,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/fish/betta.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Neon Tetra",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XS",
+      "value": 500,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["April", "November"]],
+        "Southern": [["October", "May"]]
+      },
+      "pic": "/fish/neontetra.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Rainbowfish",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 800,
+      "time": {
+        "AM": [[9, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/fish/rainbowfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Piranha",
+      "type": "fish",
+      "location": "River",
+      "shadow": "S",
+      "value": 2500,
+      "time": {
+        "AM": [
+          [12, 4],
+          [9, 11]
+        ],
+        "PM": [
+          [12, 4],
+          [9, 11]
+        ]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/piranha.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Arowana",
+      "type": "fish",
+      "location": "River",
+      "shadow": "L",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/arowana.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Dorado",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XL",
+      "value": 15000,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 9]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/dorado.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Gar",
+      "type": "fish",
+      "location": "Pond",
+      "shadow": "XXL",
+      "value": 6000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/gar.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Arapaima",
+      "type": "fish",
+      "location": "River",
+      "shadow": "XXL",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/arapaima.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Saddled Bichir",
+      "type": "fish",
+      "location": "River",
+      "shadow": "L",
+      "value": 4000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[9, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/saddledbichir.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Sturgeon",
+      "type": "fish",
+      "location": "River (mouth)",
+      "shadow": "XXL",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["September", "March"]],
+        "Southern": [["March", "September"]]
+      },
+      "pic": "/fish/sturgeon.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Sea Butterfly",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XS",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["December", "March"]],
+        "Southern": [["June", "September"]]
+      },
+      "pic": "/fish/seabutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Sea Horse",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XS",
+      "value": 1100,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "November"]],
+        "Southern": [["October", "May"]]
+      },
+      "pic": "/fish/seahorse.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Clown Fish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XS",
+      "value": 650,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/fish/clownfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Surgeonfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "S",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/fish/surgeonfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Butterfly Fish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "S",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/fish/butterflyfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Napoleonfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XXL",
+      "value": 10000,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 9]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/fish/napoleonfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Zebra Turkeyfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "M",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "November"]],
+        "Southern": [["October", "May"]]
+      },
+      "pic": "/fish/zebraturkeyfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Blowfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "M",
+      "value": 5000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[6, 11]]
+      },
+      "month": {
+        "Northern": [["November", "February"]],
+        "Southern": [["May", "August"]]
+      },
+      "pic": "/fish/blowfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Puffer Fish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "M",
+      "value": 250,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/fish/pufferfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Anchovy",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "S",
+      "value": 200,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 9]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/anchovy.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Horse Mackerel",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "S",
+      "value": 150,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/horsemackerel.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Barred Knifejaw",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "M",
+      "value": 5000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["March", "November"]],
+        "Southern": [["September", "May"]]
+      },
+      "pic": "/fish/barredknifejaw.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Sea Bass",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XL",
+      "value": 400,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/seabass.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Red Snapper",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "L",
+      "value": 3000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/redsnapper.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Dab",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "M",
+      "value": 300,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["October", "April"]],
+        "Southern": [["April", "October"]]
+      },
+      "pic": "/fish/dab.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Olive Flounder",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "L",
+      "value": 800,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/oliveflounder.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Squid",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "M",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["December", "August"]],
+        "Southern": [["June", "February"]]
+      },
+      "pic": "/fish/squid.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Moray Eel",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Narrow",
+      "value": 2000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["August", "October"]],
+        "Southern": [["February", "April"]]
+      },
+      "pic": "/fish/morayeel.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Ribbon Eel",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Narrow",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "October"]],
+        "Southern": [["December", "April"]]
+      },
+      "pic": "/fish/ribboneel.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Tuna",
+      "type": "fish",
+      "location": "Pier",
+      "shadow": "XXL",
+      "value": 7000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "April"]],
+        "Southern": [["May", "October"]]
+      },
+      "pic": "/fish/tuna.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Blue Marlin",
+      "type": "fish",
+      "location": "Pier",
+      "shadow": "XXL",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["July", "September"],
+          ["November", "April"]
+        ],
+        "Southern": [
+          ["January", "March"],
+          ["May", "October"]
+        ]
+      },
+      "pic": "/fish/bluemarlin.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Giant Trevally",
+      "type": "fish",
+      "location": "Pier",
+      "shadow": "L",
+      "value": 4500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/fish/gianttrevally.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Mahi-mahi",
+      "type": "fish",
+      "location": "Pier",
+      "shadow": "L",
+      "value": 6000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/fish/mahi-mahi.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Ocean Sunfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "value": 4000,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 9]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/fish/oceansunfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Ray",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XL",
+      "value": 3000,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 9]]
+      },
+      "month": {
+        "Northern": [["August", "November"]],
+        "Southern": [["February", "May"]]
+      },
+      "pic": "/fish/ray.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Saw Shark",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "value": 12000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/sawshark.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Hammerhead Shark",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/hammerheadshark.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Great White Shark",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "value": 15000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/greatwhiteshark.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Whale Shark",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "value": 13000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/whaleshark.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Suckerfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "value": 1500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/fish/suckerfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Football Fish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "L",
+      "value": 2500,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["November", "March"]],
+        "Southern": [["May", "September"]]
+      },
+      "pic": "/fish/footballfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Oarfish",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "XXL",
+      "value": 9000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["December", "May"]],
+        "Southern": [["June", "November"]]
+      },
+      "pic": "/fish/oarfish.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Barreleye",
+      "type": "fish",
+      "location": "Sea",
+      "shadow": "S",
+      "value": 15000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[9, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/barreleye.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Coelacanth",
+      "type": "fish",
+      "location": "Sea (rainy days)",
+      "shadow": "XXL",
+      "value": 15000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/fish/coelacanth.png",
+      "rarity": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+#mainHeader {
+  text-align: center;
+  cursor: pointer;
+}
+
+#mainHeader img {
+  width: 60%;
+  padding: 0;
+}
+
+@media only screen and (min-width: 750px) {
+  #mainHeader {
+      margin: 1em 0 1.5em 0;
+  }
+
+  #mainHeader img {
+      width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #mainHeader {
+      margin: 1.5em 0 2em 0;
+  }
+
+  #mainHeader img {
+      width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  #mainHeader {
+      margin: 1.5em 0 2.5em 0;
+  }
+
+  #mainHeader img {
+      width: 40%;
+  }
+}

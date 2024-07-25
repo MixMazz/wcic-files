@@ -1,0 +1,298 @@
+.card {
+  background-color: white;
+  border-radius: 1em;
+  width: 80%;
+  margin: 5% auto 5% auto;
+}
+
+.nightTime .card {
+  background-color: #ede7f2;
+}
+
+#categoryRadio {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5em;
+  background-color: #eee;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.2em;
+  margin: 0 auto 0.2em auto;
+}
+
+.nightTime #categoryRadio {
+  background-color: #d6d1db;
+}
+
+#categoryRadio .radio {
+  text-align: center;
+}
+
+#categoryRadio .radio input {
+  position: absolute;
+  top: -999px;
+  left: -999px;
+}
+
+#categoryRadio .radio .categoryName {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: rgba(51, 65, 85, 1);
+  transition: all 0.15s ease-in-out;
+  font-weight: 800;
+  border-radius: 0.5em;
+  padding: 0.5em 1.2em;
+  font-size: 0.8em;
+}
+
+#categoryRadio .radio input:checked + .categoryName {
+  background-color: #ffb647;
+  color: rgb(15, 30, 49);
+}
+
+.nightTime #categoryRadio .radio input:checked + .categoryName {
+  background-color: #ff9d47;
+  color: rgb(15, 30, 49);
+}
+
+#tableSelectors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+#tableMinorAdj {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.2em;
+  width: 100%;
+}
+
+#showMissingCheckbox {
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.missingCheckboxLabel {
+  cursor: pointer;
+  text-align: center;
+}
+
+#loginPromptMissing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loginPromptMissing .missingLoginTitle {
+  font-weight: 700;
+  margin: 0.5em 0 0.2em 0;
+  font-size: 1em;
+}
+
+#loginPromptMissing .missingLoginDek {
+  font-weight: 500;
+  text-align: center;
+  width: 80%;
+  font-size: 0.7em;
+}
+
+#loginPromptMissing button {
+  cursor: pointer;
+  background-color: #3addb1;
+  border: 0;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.3);
+  border-radius: 0.4em;
+  padding: 0.5em;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+#loginPromptMissing button:hover {
+  background-color: #6eebca;
+}
+
+@media only screen and (min-width: 390px) {
+  #categoryRadio .radio .categoryName {
+    padding: 0.5em 2em;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .card {
+    width: 70%;
+    border-radius: 20px;
+  }
+
+  #categoryRadio {
+    padding: 0.3em;
+  }
+
+  #categoryRadio .radio .categoryName {
+    border-radius: 0.4rem;
+    padding: 0.4rem 1.7em;
+    font-size: 1.5em;
+  }
+
+  #tableSelectors {
+    padding: 3%;
+  }
+
+  #tableMinorAdj {
+    margin-top: 1em;
+  }
+
+  #showMissingCheckbox {
+    font-size: 1em;
+  }
+
+  #showMissingCheckbox span {
+    margin-left: 0.5em;
+  }
+
+  #loginPromptMissing .missingLoginTitle {
+    margin: 1em 0 0.2em 0;
+    font-size: 1.5em;
+  }
+
+  #loginPromptMissing .missingLoginDek {
+    width: 70%;
+    font-size: 1em;
+  }
+
+  #loginPromptMissing button {
+    border-radius: 0.4em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin: 0.2em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 70%;
+    border-radius: 20px;
+  }
+
+  #categoryRadio {
+    padding: 0.3em;
+  }
+
+  #categoryRadio .radio .categoryName {
+    border-radius: 0.4rem;
+    padding: 0.5rem 2em;
+    font-size: 1.8em;
+  }
+
+  #tableSelectors {
+    padding: 3%;
+  }
+
+  #tableMinorAdj {
+    margin-top: 1em;
+  }
+
+  #showMissingCheckbox {
+    font-size: 1em;
+  }
+
+  #showMissingCheckbox span {
+    margin-left: 0.5em;
+  }
+
+  #loginPromptMissing .missingLoginTitle {
+    margin: 1em 0 0.5em 0;
+    font-size: 2em;
+  }
+
+  #loginPromptMissing .missingLoginDek {
+    width: 70%;
+    font-size: 1.5em;
+  }
+
+  #loginPromptMissing button {
+    border-radius: 0.4em;
+    padding: 0.5em;
+    font-size: 1.8em;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    width: 50%;
+    margin: 2% auto 3% auto;
+  }
+
+  #categoryRadio {
+    padding: 0.3em;
+  }
+
+  #categoryRadio .radio .categoryName {
+    padding: 0.5rem 2.4em;
+    font-size: 1.3em;
+  }
+
+  #tableSelectors {
+    padding: 3%;
+  }
+
+  #tableMinorAdj {
+    margin-top: 1em;
+  }
+
+  #showMissingCheckbox {
+    font-size: 1.2em;
+  }
+
+  #showMissingCheckbox span {
+    margin-left: 0.5em;
+  }
+
+  #loginPromptMissing .missingLoginTitle {
+    margin: 1em 0 0.5em 0;
+    font-size: 1.8em;
+  }
+
+  #loginPromptMissing .missingLoginDek {
+    width: 60%;
+    font-size: 1.3em;
+  }
+
+  #loginPromptMissing button {
+    border-radius: 0.4em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  #categoryRadio .radio .categoryName {
+    font-size: 1.7em;
+  }
+
+  #showMissingCheckbox {
+    font-size: 1.6em;
+  }
+
+  #loginPromptMissing .missingLoginTitle {
+    font-size: 2em;
+  }
+
+  #loginPromptMissing .missingLoginDek {
+    font-size: 1.5em;
+  }
+
+  #loginPromptMissing button {
+    font-size: 1.8em;
+  }
+}

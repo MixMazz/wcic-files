@@ -1,0 +1,1390 @@
+{
+  "headers": ["name", "location", "value"],
+  "bugs": [
+    {
+      "name": "Common Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 160,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["September", "June"]],
+        "Southern": [["March", "December"]]
+      },
+      "pic": "/bug/commonbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Yellow Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 160,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "June"],
+          ["September", "October"]
+        ],
+        "Southern": [
+          ["September", "December"],
+          ["March", "April"]
+        ]
+      },
+      "pic": "/bug/yellowbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Tiger Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 240,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["March", "September"]],
+        "Southern": [["September", "March"]]
+      },
+      "pic": "/bug/tigerbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Peacock Butterfly",
+      "type": "bug",
+      "location": "Near Hybrid Flowers",
+      "value": 2500,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["March", "June"]],
+        "Southern": [["September", "December"]]
+      },
+      "pic": "/bug/peacockbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Common Bluebottle",
+      "type": "bug",
+      "location": "Flying",
+      "value": 300,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["April", "August"]],
+        "Southern": [["October", "February"]]
+      },
+      "pic": "/bug/commonbluebottle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Paper Kite Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 1000,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/paperkitebutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Great Purple Emperor",
+      "type": "bug",
+      "location": "Flying",
+      "value": 3000,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["May", "August"]],
+        "Southern": [["November", "February"]]
+      },
+      "pic": "/bug/greatpurpleemperor.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Monarch Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 140,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["September", "November"]],
+        "Southern": [["March", "May"]]
+      },
+      "pic": "/bug/monarchbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Emperor Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 4000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["June", "September"],
+          ["December", "March"]
+        ],
+        "Southern": [
+          ["December", "March"],
+          ["June", "September"]
+        ]
+      },
+      "pic": "/bug/emperorbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Agrias Butterfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 3000,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/bug/agriasbutterfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Rajah Brooke's Birdwing",
+      "type": "bug",
+      "location": "Near Purple Flowers",
+      "value": 2500,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [
+          ["April", "September"],
+          ["December", "February"]
+        ],
+        "Southern": [
+          ["October", "March"],
+          ["June", "August"]
+        ]
+      },
+      "pic": "/bug/rajahbrookesbirdwing.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Queen Alexandra's Birdwing",
+      "type": "bug",
+      "location": "Flying",
+      "value": 4000,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/bug/queenalexandrasbirdwing.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Moth",
+      "type": "bug",
+      "location": "Flying Near Lights",
+      "value": 130,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/moth.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Atlas Moth",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 3000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/bug/atlasmoth.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Madagascan Sunset Moth",
+      "type": "bug",
+      "location": "Flying",
+      "value": 2500,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 4]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/bug/madagascansunsetmoth.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Long Locust",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 200,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["April", "November"]],
+        "Southern": [["October", "May"]]
+      },
+      "pic": "/bug/longlocust.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Migratory Locust",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 600,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["August", "November"]],
+        "Southern": [["February", "May"]]
+      },
+      "pic": "/bug/migratorylocust.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Rice Grasshopper",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 160,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["August", "November"]],
+        "Southern": [["February", "May"]]
+      },
+      "pic": "/bug/ricegrasshopper.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Grasshopper",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 160,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/bug/grasshopper.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Cricket",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 130,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["September", "November"]],
+        "Southern": [["March", "May"]]
+      },
+      "pic": "/bug/cricket.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Bell Cricket",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 430,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["September", "October"]],
+        "Southern": [["March", "April"]]
+      },
+      "pic": "/bug/bellcricket.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Mantis",
+      "type": "bug",
+      "location": "On Flowers",
+      "value": 430,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["March", "November"]],
+        "Southern": [["September", "May"]]
+      },
+      "pic": "/bug/mantis.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Orchid Mantis",
+      "type": "bug",
+      "location": "On White Flowers",
+      "value": 2400,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["March", "November"]],
+        "Southern": [["September", "May"]]
+      },
+      "pic": "/bug/orchidmantis.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Honey Bee",
+      "type": "bug",
+      "location": "Flying",
+      "value": 200,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["March", "July"]],
+        "Southern": [["September", "January"]]
+      },
+      "pic": "/bug/honeybee.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Wasp",
+      "type": "bug",
+      "location": "Shaking Trees",
+      "value": 2500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/wasp.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Brown Cicada",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 250,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/browncicada.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Robust Cicada",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 300,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/robustcicada.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Giant Cicada",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 600,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/giantcicada.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Walker Cicada",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 400,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["August", "September"]],
+        "Southern": [["February", "March"]]
+      },
+      "pic": "/bug/walkercicada.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Evening Cicada",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 660,
+      "time": {
+        "AM": [[4, 8]],
+        "PM": [[4, 7]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/eveningcicada.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Cicada Shell",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 10,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/cicadashell.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Red Dragonfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 180,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["September", "October"]],
+        "Southern": [["March", "April"]]
+      },
+      "pic": "/bug/reddragonfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Darner Dragonfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 230,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["April", "October"]],
+        "Southern": [["October", "April"]]
+      },
+      "pic": "/bug/darnerdragonfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Banded Dragonfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 4500,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/bug/bandeddragonfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Damselfly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "February"]],
+        "Southern": [["May", "August"]]
+      },
+      "pic": "/bug/damselfly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Firefly",
+      "type": "bug",
+      "location": "Flying",
+      "value": 300,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["June"]],
+        "Southern": [["December"]]
+      },
+      "pic": "/bug/firefly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Mole Cricket",
+      "type": "bug",
+      "location": "Underground",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "May"]],
+        "Southern": [["May", "November"]]
+      },
+      "pic": "/bug/molecricket.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Pondskater",
+      "type": "bug",
+      "location": "Ponds",
+      "value": 130,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/bug/pondskater.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Diving Beetle",
+      "type": "bug",
+      "location": "Ponds, Rivers",
+      "value": 800,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 7]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/bug/divingbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Giant Water Bug",
+      "type": "bug",
+      "location": "Ponds, Rivers",
+      "value": 2000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["April", "September"]],
+        "Southern": [["October", "March"]]
+      },
+      "pic": "/bug/giantwaterbug.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Stinkbug",
+      "type": "bug",
+      "location": "On Flowers",
+      "value": 120,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["March", "November"]],
+        "Southern": [["September", "May"]]
+      },
+      "pic": "/bug/stinkbug.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Man-faced Stink Bug",
+      "type": "bug",
+      "location": "On Flowers",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["March", "November"]],
+        "Southern": [["September", "May"]]
+      },
+      "pic": "/bug/man-facedstinkbug.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Ladybug",
+      "type": "bug",
+      "location": "On Flowers",
+      "value": 200,
+      "time": {
+        "AM": [[8, 11]],
+        "PM": [[12, 5]]
+      },
+      "month": {
+        "Northern": [["March", "June"], ["October"]],
+        "Southern": [["September", "December"], ["April"]]
+      },
+      "pic": "/bug/ladybug.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Tiger Beetle",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 1500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["February", "November"]],
+        "Southern": [["August", "May"]]
+      },
+      "pic": "/bug/tigerbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Jewel Beetle",
+      "type": "bug",
+      "location": "On Tree Stumps",
+      "value": 2400,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "August"]],
+        "Southern": [["October", "February"]]
+      },
+      "pic": "/bug/jewelbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Violin Beetle",
+      "type": "bug",
+      "location": "On Tree Stumps",
+      "value": 450,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["May", "June"],
+          ["September", "November"]
+        ],
+        "Southern": [
+          ["November", "December"],
+          ["March", "May"]
+        ]
+      },
+      "pic": "/bug/violinbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Citrus Long-horned Beetle",
+      "type": "bug",
+      "location": "On Tree Stumps",
+      "value": 350,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/citruslong-hornedbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Rosalia Batesi Beetle",
+      "type": "bug",
+      "location": "On Tree Stumps",
+      "value": 3000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/bug/rosaliabatesibeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Blue Weevil Beetle",
+      "type": "bug",
+      "location": "On Palm Trees",
+      "value": 800,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/blueweevilbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Dung Beetle",
+      "type": "bug",
+      "location": "Pushing Snowballs",
+      "value": 3000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["December", "February"]],
+        "Southern": [["June", "August"]]
+      },
+      "pic": "/bug/dungbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Earth-boring Dung Beetle",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 300,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/bug/earth-boringdungbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Scarab Beetle",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[11, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/scarabbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Drone Beetle",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 200,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[11, 11]]
+      },
+      "month": {
+        "Northern": [["June", "August"]],
+        "Southern": [["December", "February"]]
+      },
+      "pic": "/bug/dronebeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Goliath Beetle",
+      "type": "bug",
+      "location": "On Palm Trees",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/bug/goliathbeetle.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Saw Stag",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 2000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/sawstag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Miyama Stag",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/miyamastag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Giant Stag",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[11, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/giantstag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Rainbow Stag",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 6000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/bug/rainbowstag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Cyclommatus Stag",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/cyclommatusstag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Golden Stag",
+      "type": "bug",
+      "location": "On Palm Trees",
+      "value": 12000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/goldenstag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Giraffe Stag",
+      "type": "bug",
+      "location": "On Palm Trees",
+      "value": 12000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/giraffestag.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Horned Dynastid",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 1350,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/horneddynastid.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Horned Atlas",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/hornedatlas.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Horned Elephant",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/hornedelephant.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Horned Hercules",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 12000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/hornedhercules.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Walking Stick",
+      "type": "bug",
+      "location": "On Trees",
+      "value": 600,
+      "time": {
+        "AM": [[4, 8]],
+        "PM": [[5, 7]]
+      },
+      "month": {
+        "Northern": [["July", "November"]],
+        "Southern": [["January", "May"]]
+      },
+      "pic": "/bug/walkingstick.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Walking Leaf",
+      "type": "bug",
+      "location": "Near Trees, Disguised as Furniture Leaf",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "August"]],
+        "Southern": [["January", "February"]]
+      },
+      "pic": "/bug/walkingleaf.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Bagworm",
+      "type": "bug",
+      "location": "Shaking Trees",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/bagworm.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Ant",
+      "type": "bug",
+      "location": "On Rotton Food",
+      "value": 80,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/ant.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Hermit Crab",
+      "type": "bug",
+      "location": "Beach, Disguised as Shell",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/hermitcrab.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Wharf Roach",
+      "type": "bug",
+      "location": "On Rocks at Beach",
+      "value": 200,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/wharfroach.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Fly",
+      "type": "bug",
+      "location": "On Trash Items",
+      "value": 60,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/fly.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Mosquito",
+      "type": "bug",
+      "location": "Flying",
+      "value": 130,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[5, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/bug/mosquito.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Flea",
+      "type": "bug",
+      "location": "On Villagers",
+      "value": 70,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "November"]],
+        "Southern": [["October", "May"]]
+      },
+      "pic": "/bug/flea.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Snail",
+      "type": "bug",
+      "location": "On Rocks (raining)",
+      "value": 250,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/snail.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Pill Bug",
+      "type": "bug",
+      "location": "Hitting Rocks",
+      "value": 250,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [
+          [12, 4],
+          [11, 11]
+        ]
+      },
+      "month": {
+        "Northern": [["September", "June"]],
+        "Southern": [["March", "December"]]
+      },
+      "pic": "/bug/pillbug.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Centipede",
+      "type": "bug",
+      "location": "Hitting Rocks",
+      "value": 300,
+      "time": {
+        "AM": [[0, 0]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["September", "June"]],
+        "Southern": [["March", "December"]]
+      },
+      "pic": "/bug/centipede.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Spider",
+      "type": "bug",
+      "location": "Shaking Trees",
+      "value": 480,
+      "time": {
+        "AM": [[12, 8]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/bug/spider.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Tarantula",
+      "type": "bug",
+      "location": "On Ground",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["November", "April"]],
+        "Southern": [["May", "October"]]
+      },
+      "pic": "/bug/tarantula.png",
+      "rarity": ""
+    },
+
+    {
+      "name": "Scorpion",
+      "location": "On Ground",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[7, 11]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/bug/scorpion.png",
+      "rarity": ""
+    }
+  ]
+}

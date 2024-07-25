@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --grid-cell-size: 50px;
+  --font-color-darkmode: rgb(243, 241, 254);
+  --font-color-regbrown: #47260a;
+
+  --transition-opts: background-color 2s ease, opacity 2s ease, fill 2s ease;
+}
+
+body {
+  background-color: #e9d6ba;
+}
+
+body.nightTime {
+  background-color: #7a758f;
+}
+
+body.winterTime {
+  background-color: #e8d9b5;
+}
+
+body.nightTime.winterTime {
+  background-color: #a5b6e3;
+}
+
+body,
+body * {
+  -webkit-transition: var(--transition-opts);
+  -moz-transition: var(--transition-opts);
+  -o-transition: var(--transition-opts);
+  transition: var(--transition-opts);
+}
+
+.primaryButton {
+  background-color: #3addb1;
+  border: none;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  background-color: #6eebca;
+}
+
+.primaryButtonAlt {
+  background-color: #05bc85;
+  border: 2px solid #05bc85;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.primaryButtonAlt:hover {
+  background-color: #6ad3b4;
+  border: 2px solid #6ad3b4;
+}
+
+.secondaryButtonAlt {
+  border: 2px solid #05bc85;
+  color: #05bc85;
+  background-color: #fffaf1;
+  cursor: pointer;
+}
+
+.nightTime .secondaryButtonAlt {
+  background-color: #e3e1de;
+  color: #0a8b64;
+}
+
+.secondaryButtonAlt:hover {
+  color: #58d8b2;
+  border-color: #58d8b2;
+}
+
+.nightTime .secondaryButtonAlt:hover {
+  background-color: #e3e1de;
+  color: #1ec190;
+}
+
+.shadow {
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.shadow-md {
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.shadow-lg {
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.shadow-xl {
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+  supported by Chrome, Edge, Opera and Firefox */
+}
+
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

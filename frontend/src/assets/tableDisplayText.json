@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "name": "Name",
+    "pic": "Image",
+    "notes": "Notes",
+    "location": "Location",
+    "shadow": "Shadow",
+    "value": "Price",
+    "speed": "Speed",
+    "bubbles": "Bubbles"
+  },
+  "notes": {
+    "leaving": "Leaving Soon!",
+    "new": "New This Month!",
+    "leavingInfo": "This critter will be gone at the end of this month!",
+    "newInfo": "This critter wasn't around last month!"
+  }
+}

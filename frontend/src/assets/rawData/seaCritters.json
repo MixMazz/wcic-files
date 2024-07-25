@@ -1,0 +1,754 @@
+{
+  "headers": ["name", "shadow", "speed", "bubbles", "value"],
+  "sealives": [
+    {
+      "name": "Seaweed",
+      "type": "sealife",
+      "shadow": "L",
+      "bubble": "many",
+      "speed": "none",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["October", "July"]],
+        "Southern": [["April", "January"]]
+      },
+      "pic": "/sealife/seaweed.png"
+    },
+
+    {
+      "name": "Sea Grapes",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "none",
+      "value": 900,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/sealife/seagrapes.png"
+    },
+
+    {
+      "name": "Sea Cucumber",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "extra slow",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "April"]],
+        "Southern": [["May", "October"]]
+      },
+      "pic": "/sealife/seacucumber.png"
+    },
+
+    {
+      "name": "Sea Pig",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "few",
+      "speed": "extra fast",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["November", "February"]],
+        "Southern": [["May", "August"]]
+      },
+      "pic": "/sealife/seapig.png"
+    },
+
+    {
+      "name": "Sea Star",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "extra slow",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/seastar.png"
+    },
+
+    {
+      "name": "Sea Urchin",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1700,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/sealife/seaurchin.png"
+    },
+
+    {
+      "name": "Slate Pencil Urchin",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 2000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/sealife/slatepencilurchin.png"
+    },
+
+    {
+      "name": "Sea Anemone",
+      "type": "sealife",
+      "shadow": "L",
+      "bubble": "many",
+      "speed": "none",
+      "value": 500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/seaanemone.png"
+    },
+
+    {
+      "name": "Moon Jellyfish",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "extra slow",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/sealife/moonjellyfish.png"
+    },
+
+    {
+      "name": "Sea Slug",
+      "type": "sealife",
+      "shadow": "XS",
+      "bubble": "few",
+      "speed": "extra slow",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/seaslug.png"
+    },
+
+    {
+      "name": "Pearl Oyster",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "medium",
+      "value": 2800,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/pearloyster.png"
+    },
+
+    {
+      "name": "Mussel",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "December"]],
+        "Southern": [["December", "June"]]
+      },
+      "pic": "/sealife/mussel.png"
+    },
+
+    {
+      "name": "Oyster",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1100,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["September", "February"]],
+        "Southern": [["March", "August"]]
+      },
+      "pic": "/sealife/oyster.png"
+    },
+
+    {
+      "name": "Scallop",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "slow",
+      "value": 1200,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/scallop.png"
+    },
+
+    {
+      "name": "Whelk",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/whelk.png"
+    },
+
+    {
+      "name": "Turban Shell",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "May"],
+          ["September", "December"]
+        ],
+        "Southern": [
+          ["September", "November"],
+          ["March", "June"]
+        ]
+      },
+      "pic": "/sealife/turbanshell.png"
+    },
+
+    {
+      "name": "Abalone",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 2000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "January"]],
+        "Southern": [["December", "July"]]
+      },
+      "pic": "/sealife/abalone.png"
+    },
+
+    {
+      "name": "Gigas Giant Clam",
+      "type": "sealife",
+      "shadow": "XL",
+      "bubble": "many",
+      "speed": "extra fast",
+      "value": 15000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["May", "September"]],
+        "Southern": [["November", "March"]]
+      },
+      "pic": "/sealife/gigasgiantclam.png"
+    },
+
+    {
+      "name": "Chambered Nautilus",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 1800,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "June"],
+          ["September", "November"]
+        ],
+        "Southern": [
+          ["September", "December"],
+          ["March", "May"]
+        ]
+      },
+      "pic": "/sealife/chamberednautilus.png"
+    },
+
+    {
+      "name": "Octopus",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "slow",
+      "value": 1200,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/octopus.png"
+    },
+
+    {
+      "name": "Umbrella Octopus",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "fast",
+      "value": 6000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["March", "May"],
+          ["September", "November"]
+        ],
+        "Southern": [
+          ["September", "November"],
+          ["March", "May"]
+        ]
+      },
+      "pic": "/sealife/umbrellaoctopus.png"
+    },
+
+    {
+      "name": "Vampire Squid",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "extra fast",
+      "value": 10000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["May", "August"]],
+        "Southern": [["November", "February"]]
+      },
+      "pic": "/sealife/vampiresquid.png"
+    },
+
+    {
+      "name": "Firefly Squid",
+      "type": "sealife",
+      "shadow": "XS",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1400,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[9, 11]]
+      },
+      "month": {
+        "Northern": [["March", "June"]],
+        "Southern": [["September", "December"]]
+      },
+      "pic": "/sealife/fireflysquid.png"
+    },
+
+    {
+      "name": "Gazami Crab",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 2200,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["June", "November"]],
+        "Southern": [["December", "May"]]
+      },
+      "pic": "/sealife/gazamicrab.png"
+    },
+
+    {
+      "name": "Dungeness Crab",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 1900,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "May"]],
+        "Southern": [["May", "November"]]
+      },
+      "pic": "/sealife/dungenesscrab.png"
+    },
+
+    {
+      "name": "Snow Crab",
+      "type": "sealife",
+      "shadow": "L",
+      "bubble": "regular",
+      "speed": "fast",
+      "value": 6000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "April"]],
+        "Southern": [["May", "October"]]
+      },
+      "pic": "/sealife/snowcrab.png"
+    },
+
+    {
+      "name": "Red King Crab",
+      "type": "sealife",
+      "shadow": "L",
+      "bubble": "regular",
+      "speed": "extra fast",
+      "value": 8000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["November", "March"]],
+        "Southern": [["May", "September"]]
+      },
+      "pic": "/sealife/redkingcrab.png"
+    },
+
+    {
+      "name": "Acorn Barnacle",
+      "type": "sealife",
+      "shadow": "XS",
+      "bubble": "few",
+      "speed": "none",
+      "value": 600,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/acornbarnacle.png"
+    },
+
+    {
+      "name": "Spider Crab",
+      "type": "sealife",
+      "shadow": "XL",
+      "bubble": "many",
+      "speed": "extra fast",
+      "value": 12000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["March", "April"]],
+        "Southern": [["September", "October"]]
+      },
+      "pic": "/sealife/spidercrab.png"
+    },
+
+    {
+      "name": "Tiger Prawn",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 3000,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["June", "September"]],
+        "Southern": [["December", "March"]]
+      },
+      "pic": "/sealife/tigerprawn.png"
+    },
+
+    {
+      "name": "Sweet Shrimp",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1400,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["September", "February"]],
+        "Southern": [["March", "August"]]
+      },
+      "pic": "/sealife/sweetshrimp.png"
+    },
+
+    {
+      "name": "Mantis Shrimp",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "medium",
+      "value": 2500,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["all year"]],
+        "Southern": [["all year"]]
+      },
+      "pic": "/sealife/mantisshrimp.png"
+    },
+
+    {
+      "name": "Spiny Lobster",
+      "type": "sealife",
+      "shadow": "L",
+      "bubble": "many",
+      "speed": "fast",
+      "value": 5000,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[9, 11]]
+      },
+      "month": {
+        "Northern": [["October", "December"]],
+        "Southern": [["April", "June"]]
+      },
+      "pic": "/sealife/spinylobster.png"
+    },
+
+    {
+      "name": "Lobster",
+      "type": "sealife",
+      "shadow": "L",
+      "bubble": "many",
+      "speed": "fast",
+      "value": 4500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [
+          ["April", "June"],
+          ["December", "January"]
+        ],
+        "Southern": [
+          ["October", "December"],
+          ["June", "July"]
+        ]
+      },
+      "pic": "/sealife/lobster.png"
+    },
+
+    {
+      "name": "Giant Isopod",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "extra fast",
+      "value": 12000,
+      "time": {
+        "AM": [
+          [12, 4],
+          [9, 11]
+        ],
+        "PM": [
+          [12, 4],
+          [9, 11]
+        ]
+      },
+      "month": {
+        "Northern": [["July", "October"]],
+        "Southern": [["January", "April"]]
+      },
+      "pic": "/sealife/giantisopod.png"
+    },
+
+    {
+      "name": "Horseshoe Crab",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "medium",
+      "value": 2500,
+      "time": {
+        "AM": [[12, 4]],
+        "PM": [[9, 11]]
+      },
+      "month": {
+        "Northern": [["July", "September"]],
+        "Southern": [["January", "March"]]
+      },
+      "pic": "/sealife/horseshoecrab.png"
+    },
+
+    {
+      "name": "Sea Pineapple",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1500,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["April", "August"]],
+        "Southern": [["October", "February"]]
+      },
+      "pic": "/sealife/seapineapple.png"
+    },
+
+    {
+      "name": "Spotted Garden Eel",
+      "type": "sealife",
+      "shadow": "S",
+      "bubble": "few",
+      "speed": "slow",
+      "value": 1100,
+      "time": {
+        "AM": [[4, 11]],
+        "PM": [[12, 9]]
+      },
+      "month": {
+        "Northern": [["May", "October"]],
+        "Southern": [["November", "April"]]
+      },
+      "pic": "/sealife/spottedgardeneel.png"
+    },
+
+    {
+      "name": "Flatworm",
+      "type": "sealife",
+      "shadow": "XS",
+      "bubble": "few",
+      "speed": "extra slow",
+      "value": 700,
+      "time": {
+        "AM": [[12, 9]],
+        "PM": [[4, 11]]
+      },
+      "month": {
+        "Northern": [["August", "September"]],
+        "Southern": [["February", "March"]]
+      },
+      "pic": "/sealife/flatworm.png"
+    },
+
+    {
+      "name": "Venus' Flower Basket",
+      "type": "sealife",
+      "shadow": "M",
+      "bubble": "regular",
+      "speed": "fast",
+      "value": 5000,
+      "time": {
+        "AM": [[12, 11]],
+        "PM": [[12, 11]]
+      },
+      "month": {
+        "Northern": [["October", "February"]],
+        "Southern": [["April", "August"]]
+      },
+      "pic": "/sealife/venusflowerbasket.png"
+    }
+  ]
+}
