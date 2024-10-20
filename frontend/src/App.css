@@ -52,6 +52,7 @@ body * {
   color: white;
   text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.4);
   cursor: pointer;
+  transition: background-color 0s, border-color 0s;
 }
 
 .primaryButtonAlt:hover {

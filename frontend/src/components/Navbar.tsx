@@ -9,14 +9,14 @@ const UserButtons: React.FC<{
   logout: () => void
 }> = ({ gotoAccount, logout }) => (
   <>
-    <span onClick={logout} className="logoutText">Log Out</span>
+    <button onClick={logout} className="logoutText">Log Out</button>
     <button onClick={gotoAccount} className="primaryButtonAlt shadow">My Account</button>
   </>
 );
 
 const SignUpButtons: React.FC<{ navigate: NavigateFunction }> = ({ navigate }) => (
   <>
-    <span onClick={() => navigate('/login', { state: { isSigningUp: false } })} className="loginText">Log In</span>
+    <button onClick={() => navigate('/login', { state: { isSigningUp: false } })} className="loginText">Log In</button>
     <button onClick={() => navigate('/login', { state: { isSigningUp: true } })} className="primaryButtonAlt shadow">Sign Up</button>
   </>
 );
