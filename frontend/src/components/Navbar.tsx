@@ -3,6 +3,7 @@ import { NavigateFunction, useNavigate } from 'react-router-dom';
 import 'src/components/Navbar.css';
 import { useUserContext } from 'src/contexts/UserContext';
 import * as UserApi from 'src/network/user_api';
+import AccessibilitySettings from './AccessibilitySettings';
 
 const UserButtons: React.FC<{
   gotoAccount: () => void,
@@ -44,6 +45,7 @@ const Navbar = () => {
               ? <UserButtons gotoAccount={gotoAccount} logout={logout} />
               : <SignUpButtons navigate={navigate} />
           }
+          <AccessibilitySettings />
         </div>
       </div>
     </div>

@@ -66,23 +66,19 @@
   }
 }
 
-#twinkle0 {
+#twinkle0,
+#twinkle1,
+#twinkle2 {
   animation-name: twinkle;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 #twinkle1 {
-  animation-name: twinkle;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   animation-delay: 2s;
 }
 
 #twinkle2 {
-  animation-name: twinkle;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   animation-delay: 4s;
 }
 
@@ -156,4 +152,27 @@
   100% {
     transform: translateX(0);
   }
+}
+
+.stopAnimations #shoreline,
+.stopAnimations #wave,
+.stopAnimations #twinkle0,
+.stopAnimations #twinkle1,
+.stopAnimations #twinkle2,
+.stopAnimations #snowing_patch0,
+.stopAnimations #snowing_patch1,
+.stopAnimations #snowing_patch2,
+.stopAnimations .snowflake {
+  animation: none;
+}
+
+/* aesthetically pleasing freeze-frame */
+.stopAnimations #snowing_patch0 {
+  transform: translateY(200px);
+}
+.stopAnimations #snowing_patch1 {
+  transform: translateY(600px);
+}
+.stopAnimations #snowing_patch2 {
+  transform: translateY(1500px);
 }

@@ -1,0 +1,184 @@
+.accessibilitySettingsContainer {
+  position: relative;
+}
+
+.accessibilityToggle {
+  background-color: transparent;
+  border: none;
+  padding: 0 !important;
+  transition: none;
+  cursor: pointer;
+  color: var(--font-color-darkmode);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accessibilityToggle:hover {
+  opacity: 0.5;
+}
+
+.accessibilityIcon {
+  color: var(--font-color-regbrown);
+  width: 24px;
+  height: 24px;
+}
+.nightTime .accessibilityIcon {
+  color: var(--font-color-darkmode);
+}
+
+.accessibilityDialogModal {
+  position: absolute;
+  right: 0;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: solid 1px var(--font-color-regbrown);
+  color: var(--font-color-regbrown);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 1em;
+  min-width: 150px;
+  gap: 1rem
+}
+
+.accessibilityOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.accessibilityDialogModal h3 {
+  font-size: 16px;
+  margin: 0.5em 0;
+}
+
+.accessibilityDialogModal label {
+  white-space: nowrap;
+  font-size: 14px;
+}
+.accessibilityDialogModal input[type="checkbox"] {
+  font-size: 12px;
+  width: 1em;
+  height: 1em;
+}
+
+.accessibilityDialogModal button {
+  background-color: rgb(232, 232, 232);
+  color: black;
+  transition: none;
+  border: none;
+  border-radius: 4px !important;
+  cursor: pointer;
+  font-size: 12px !important;
+  padding: 0.5em 1em;
+}
+
+.accessibilityDialogModal button:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+
+
+@media only screen and (min-width: 486px) {
+  .accessibilityIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .accessibilityDialogModal button {
+    font-size: 16px !important;
+  }
+  
+  .accessibilityDialogModal h3 {
+    font-size: 18px;
+    margin: 0.5em 0;
+  }
+  .accessibilityDialogModal label {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .accessibilityIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .accessibilityDialogModal button {
+    font-size: 16px !important;
+  }
+  
+  .accessibilityDialogModal h3 {
+    font-size: 18px;
+    margin: 0.5em 0;
+  }
+  .accessibilityDialogModal label {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .accessibilityIcon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .accessibilityDialogModal {
+    padding: 1.5em 2em;
+    min-width: 350px;
+  }
+
+  .accessibilityDialogModal button {
+    font-size: 1.25em !important;
+  }
+  
+  .accessibilityDialogModal h3 {
+    font-size: 1.75em;
+    margin: 0.75em 0;
+  }
+  .accessibilityDialogModal label {
+    font-size: 1.5em;
+  }
+  .accessibilityDialogModal input[type="checkbox"] {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .accessibilityIcon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .accessibilityDialogModal {
+    padding: 1.5em 2.5em;
+    min-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .accessibilityIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .accessibilityDialogModal {
+    padding: 2em 3em;
+    margin-top: 1.5rem;
+  }
+
+  .accessibilityDialogModal button {
+    font-size: 24px !important;
+  }
+  
+  .accessibilityDialogModal h3 {
+    font-size: 32px;
+  }
+  .accessibilityDialogModal label {
+    font-size: 28px;
+  }
+}
